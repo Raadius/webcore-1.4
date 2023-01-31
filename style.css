@@ -22,6 +22,9 @@
 }
 
 .side-menu {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
     width: 320px;
     height: 100vh;
     background-color: #FFFFFF;
@@ -86,7 +89,7 @@
  }
 
 .side-menu__footer {
-    margin-top: 65px;
+    margin-top: auto;
 }
 
 .footer-contacts__button-list {
@@ -153,7 +156,5 @@
 }
 
 .footer-languages__button--active {
-    color: #7E7E82;
+       color: #7E7E82;
 }
-
-
